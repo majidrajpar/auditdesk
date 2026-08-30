@@ -1,0 +1,31 @@
+invoice_no,vendor,amount,date,description,cost_center,approver
+INV-1001,Apex Tech Solutions,4980.00,2026-08-12,IT Hardware - Workstation Upgrade,CC-101,M. Davis
+INV-1002,Apex Tech Solutions,4950.00,2026-08-14,IT Hardware - Peripheral Accessories,CC-101,M. Davis
+INV-1003,Apex Tech Solutions,4920.00,2026-08-15,IT Hardware - Server Cables,CC-101,M. Davis
+INV-1004,BlueSky Logistics,12450.00,2026-08-03,Freight & Shipping Q3,CC-204,R. Sterling
+INV-1005,BlueSky Logistics,12450.00,2026-08-03,Freight & Shipping Q3,CC-204,R. Sterling
+INV-1006,Global Cloud Services,3420.50,2026-08-08,Cloud Hosting AWS August,CC-305,A. Vance
+INV-1007,Pinnacle Office Supplies,4890.00,2026-08-16,Ergonomic Office Chairs Batch 1,CC-102,T. Jenkins
+INV-1008,Pinnacle Office Supplies,4930.00,2026-08-17,Ergonomic Office Chairs Batch 2,CC-102,T. Jenkins
+INV-1009,Delta Facility Management,8750.00,2026-08-09,HVAC Maintenance Semi-Annual,CC-401,H. Gomez
+INV-1010,CyberShield Consulting,18500.00,2026-08-11,Q3 Penetration Testing Engagement,CC-305,A. Vance
+INV-1011,Nexus Telecom,1280.40,2026-08-05,Corporate Fiber Internet Fiber 1GB,CC-305,A. Vance
+INV-1012,Zenith Legal Advisors,24500.00,2026-08-02,Retainer & Corporate Restructure Counsel,CC-901,E. Stone
+INV-1013,FastPrint Media,890.00,2026-08-07,Marketing Brochures Annual Event,CC-502,C. Taylor
+INV-1014,FastPrint Media,890.00,2026-08-22,Marketing Brochures Annual Event,CC-502,C. Taylor
+INV-1015,Alpha Power Corp,6320.10,2026-08-01,Electricity Utilities HQ,CC-401,H. Gomez
+INV-1016,Vanguard Security,5400.00,2026-08-04,Physical Security Guard Service,CC-401,H. Gomez
+INV-1017,Starlight Catering,4750.00,2026-08-15,Executive Town Hall Dinner,CC-101,M. Davis
+INV-1018,Starlight Catering,4800.00,2026-08-16,Executive Town Hall Lunch & Refreshments,CC-101,M. Davis
+INV-1019,Summit Marketing Agency,15000.00,2026-08-10,Digital Advertising Campaign Google/Meta,CC-502,C. Taylor
+INV-1020,Ironclad Shredding,420.00,2026-08-06,Confidential Document Disposal,CC-102,T. Jenkins
+INV-1021,Quantum Analytics Inc,9800.00,2026-08-23,BI Dashboard Customization License,CC-305,A. Vance
+INV-1022,Silverline Travel Services,3150.00,2026-08-18,Board Member Airfare London AGM,CC-901,E. Stone
+INV-1023,Silverline Travel Services,3150.00,2026-08-19,Board Member Airfare London AGM,CC-901,E. Stone
+INV-1024,Precision Staffing,11200.00,2026-08-13,Contract Software Engineer Billing W32,CC-305,A. Vance
+INV-1025,Precision Staffing,11200.00,2026-08-20,Contract Software Engineer Billing W33,CC-305,A. Vance
+INV-1026,Metro Courier,145.00,2026-08-21,Urgent Document Dispatch,CC-102,T. Jenkins
+INV-1027,Optima Insurance Group,42000.00,2026-08-01,Commercial Property Insurance Q3,CC-901,E. Stone
+INV-1028,Redwood Software,7850.00,2026-08-23,Annual SaaS Subscription HR Portal,CC-601,S. Clark
+INV-1029,Beacon Consulting,4990.00,2026-08-29,Management Strategy Workshop Day 1,CC-101,M. Davis
+INV-1030,Beacon Consulting,4990.00,2026-08-30,Management Strategy Workshop Day 2,CC-101,M. Davis
