@@ -220,7 +220,10 @@ def test_concurrent_api_bombardment():
     print("=" * 70)
 
     load_demo_data()
-    server = ThreadingHTTPServer(("127.0.0.1", 8097), AuditDeskHandler)
+    class HighBacklogHTTPServer(ThreadingHTTPServer):
+        request_queue_size = 128
+        allow_reuse_address = True
+    server = HighBacklogHTTPServer(("127.0.0.1", 8097), AuditDeskHandler)
     server_thread = threading.Thread(target=server.serve_forever, daemon=True)
     server_thread.start()
     # Proxy bypass opener
