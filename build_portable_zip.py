@@ -40,7 +40,7 @@ def build_portable_package():
     opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
     with opener.open(EMBED_PYTHON_URL) as resp, open(embed_zip_path, "wb") as out:
         shutil.copyfileobj(resp, out)
-    print("  ✓ Python embeddable zip downloaded successfully.")
+    print("  [OK] Python embeddable zip downloaded successfully.")
 
     # 3. Extract Embedded Python to runtime/
     print("\n[2/5] Extracting Python runtime...")
@@ -76,7 +76,7 @@ def build_portable_package():
         "--no-compile", "--quiet"
     ]
     subprocess.check_call(cmd)
-    print("  ✓ Pre-bundled python-docx and OpenXML libraries into portable runtime.")
+    print("  [OK] Pre-bundled python-docx and OpenXML libraries into portable runtime.")
 
     # 5. Copy Application Source Files
     print("\n[4/5] Copying AuditDesk application files...")
@@ -115,7 +115,7 @@ def build_portable_package():
 
     size_mb = os.path.getsize(zip_output_path) / (1024 * 1024)
     print("\n" + "=" * 65)
-    print(f"  🎉 PORTABLE PACKAGE SUCCESSFULLY CREATED! ({size_mb:.2f} MB)")
+    print(f"  [DONE] PORTABLE PACKAGE SUCCESSFULLY CREATED! ({size_mb:.2f} MB)")
     print(f"  Location: {zip_output_path}")
     print("=" * 65)
     print("\nHow to use:")
