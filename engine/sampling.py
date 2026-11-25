@@ -42,8 +42,11 @@ class SamplingEngine:
             n_adjusted = raw_n
 
         # Practical minimums based on AICPA audit guidelines
-        # Typically 25-60 for high reliance controls
-        sample_size = max(25, min(int(math.ceil(n_adjusted)), population_size))
+        # Typically 25-60 for high reliance controls, capped at population size
+        if population_size <= 0:
+            sample_size = 0
+        else:
+            sample_size = min(population_size, max(25, int(math.ceil(n_adjusted))))
 
         return {
             "method": "Attribute Sampling (Controls Testing)",
