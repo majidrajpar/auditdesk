@@ -1,9 +1,9 @@
-# 🔍 AuditDesk • Fieldwork & Forensic Workbench for Internal Auditors
+# AuditDesk — Fieldwork & Forensic Workbench for Internal Auditors
 
 <p align="center">
-  <b>A lightweight, privacy-first, zero-dependency audit fieldwork OS for ground practitioners and consultants.</b>
+  <b>A lightweight, privacy-first, zero-dependency audit fieldwork workbench for internal auditors and consultants.</b>
   <br />
-  <sub>Instant 100% population CAATs forensics, AICPA statistical sampling, interactive charts, and 1-click IIA Compliant Word & Excel workpaper generation.</sub>
+  <sub>100% population CAATs forensics, AICPA statistical sampling, interactive charts, and IIA-aligned Word & Excel workpaper generation.</sub>
 </p>
 
 <p align="center">
@@ -14,15 +14,22 @@
   <img src="https://img.shields.io/badge/Compliance-IIA%20%7C%20AICPA-emerald?style=flat-square" alt="Compliance" />
 </p>
 
+```mermaid
+flowchart LR
+    A["1. Data Studio\nIngest GL / AP CSV"] --> B["2. CAATs Scanner\n100% Population Tests"]
+    B --> C["3. Sampling Studio\nAICPA Attribute / MUS"]
+    C --> D["4. IIA 5C Report\nDOCX & Excel Workpapers"]
+```
+
 ---
 
-## ⚡ Quick Start (1-Click, Zero Configuration)
+## Quick Start (Zero Configuration)
 
-AuditDesk requires **no database configuration, no Docker, and no environment setup**.
+AuditDesk requires no database configuration, no Docker, and no environment setup.
 
 ### Windows
-Double-click **`AuditDesk.bat`**. 
-> *It auto-detects Python, installs dependencies silently if needed, starts the local session server, and immediately opens your browser to `http://localhost:8090`.*
+Double-click `AuditDesk.bat`.
+> *Auto-detects Python, installs dependencies if needed, starts the local session server, and opens `http://localhost:8090`.*
 
 ### macOS / Linux
 Run:
@@ -32,16 +39,9 @@ Run:
 
 ---
 
-## 📖 How to Use AuditDesk (Step-by-Step Fieldwork Workflow)
+## Fieldwork Workflow
 
-AuditDesk follows the standard **IIA International Professional Practices Framework (IPPF)** audit lifecycle:
-
-```
-  ┌─────────────────┐     ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
-  │ 1. DATA STUDIO  │ ──> │ 2. CAATs SCANNER │ ──> │ 3. AICPA SAMPLING│ ──> │ 4. IIA 5C REPORT │
-  │ Ingest GL / CSV │     │ 100% Population  │     │ Attribute / MUS  │     │ DOCX & Workpaper │
-  └─────────────────┘     └──────────────────┘     └──────────────────┘     └──────────────────┘
-```
+AuditDesk follows the IIA International Professional Practices Framework (IPPF) audit lifecycle:
 
 ### Option A: The 1-Click Auto-Pilot (Fastest)
 1. Launch the app and click the **`⚡ 1-Click Auto-Pilot`** button on the top navigation bar.
